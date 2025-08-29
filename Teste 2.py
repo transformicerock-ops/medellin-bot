@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN = "MTQxMDczOTEwMzA5MTI2MTYyMA.GYvUH5.yWuxIwTGi8Ij2yP0psMUhxcEV7QsNu4gtneK1s"  # Substitua pelo seu token
+TOKEN = "MTQxMDczOTEwMzA5MTI2MTYyMA.GNQQJa.0wwGrqlXeGhS7MF1XS9tubR11q7Ozg9psZVM9U"  # Substitua pelo seu token
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -98,4 +98,5 @@ async def ticket(ctx):
         view=view
     )
 
-bot.run("MTQxMDczOTEwMzA5MTI2MTYyMA.GYvUH5.yWuxIwTGi8Ij2yP0psMUhxcEV7QsNu4gtneK1s")
+bot.run("MTQxMDczOTEwMzA5MTI2MTYyMA.GNQQJa.0wwGrqlXeGhS7MF1XS9tubR11q7Ozg9psZVM9U")
+
